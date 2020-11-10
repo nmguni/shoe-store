@@ -6,7 +6,7 @@ import CheckBox from "./Sections/CheckBox";
 import RadioBox from "./Sections/RadioBox";
 import { continents, price } from "./Sections/Datas";
 import SearchFeature from "./Sections/SearchFeature";
-import "./landingStyles.scss";
+import "./landingStyles.css";
 const { Meta } = Card;
 
 function LandingPage() {

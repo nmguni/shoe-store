@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Collapse, Radio } from "antd";
-import "../landingStyles.scss";
+import "../landingStyles.css";
 const { Panel } = Collapse;
 
 function RadioBox(props) {
