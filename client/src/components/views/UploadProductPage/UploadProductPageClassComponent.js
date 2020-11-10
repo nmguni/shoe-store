@@ -68,12 +68,12 @@ export class UploadProductPage extends Component {
 
     axios.post("/api/product/uploadProduct", variables).then((response) => {
       if (response.data.success) {
-        alert("video Uploaded Successfully");
+        alert("Image Uploaded Successfully");
         setTimeout(() => {
           this.props.history.push("/");
         }, 1000);
       } else {
-        alert("Failed to upload video");
+        alert("Failed to upload Image");
       }
     });
   };
