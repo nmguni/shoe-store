@@ -69,7 +69,7 @@ function FileUpload(props) {
           <div onClick={() => onDelete(image)}>
             <img
               style={{ minWidth: "300px", width: "300px", height: "240px" }}
-              src={`http://localhost:5000/${image}`}
+              src={`https://calm-eyrie-12447.herokuapp.com/${image}`}
               alt={`productImg-${index}`}
             />
           </div>
