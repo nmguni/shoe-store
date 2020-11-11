@@ -57,3 +57,17 @@ th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+.loginpage__background {
+  background-image: url("./images/shoes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.loginpage__background2 {
+  background-image: url("./images/shoes2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
